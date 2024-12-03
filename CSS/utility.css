@@ -1,0 +1,65 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+
+}
+
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background:  #121212; ;
+}
+
+.rounded{
+    border-radius: 7px;
+
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+ 
+/* Apply the custom scrollbar to the entire website */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    height: 12px; /* Height for horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark background for the scrollbar track */
+    border-radius: 6px; /* Rounded corners for the track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #444444; /* Darker gray for the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+    border: 2px solid #1e1e1e; /* Adds spacing between the thumb and track */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555; /* Slightly lighter gray on hover */
+  }
+   
+  /* For Mozilla-based browsers */
+  * {
+    scrollbar-width: thin; /* Thin scrollbar width */
+    scrollbar-color: #444444 #1e1e1e; /* Thumb and track colors */
+  }
+  
