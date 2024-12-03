@@ -83,7 +83,8 @@ spotifyclone/
 
 ## 📸 Preview
 
-![Spotify Clone Screenshot](images/preview.png)
+![Spotify Clone Screenshot](images)
+
 
 ---
 
