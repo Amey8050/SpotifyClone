@@ -2,10 +2,6 @@ console.log("Lets write javascript")
 let currentSong = new Audio();
 let songs;
 let currFolder;
-
-// http://127.0.0.1:3000/V-84-Project/songs/mix/info.json json->link
-
-
 function secondsToMinutesSeconds(seconds) {
     if (isNaN(seconds) || seconds < 0) {
         return "00:00";
